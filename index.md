@@ -115,7 +115,9 @@ As the aim of the project was to be able to share an intuitive web application f
 ![screenshot_webapp](img/webapp.png){:class="img-responsive"}
 
 
+### Gallery
 
+[FIFA](ada_jekyll_page/_includes/FIFA1.html)
 
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)<!DOCTYPE html>
