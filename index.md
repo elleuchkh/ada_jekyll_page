@@ -10,7 +10,6 @@ published: true
 <br>   
   
 ### Introduction to the Panama Papers
-<!-- ![image-title-here](/img/Trump.jpg){:class="img-responsive"} -->
 
 The Panama papers were released in 2015, they constitue the biggest leak of financial information in history before the recent Paradise papers leak. It first came from the Panamanian corporate service company Mossack Fonseca. The leak revealed a substantial amount of illegal activities including fraud and tax evasion. It especially revealed illegal financial activities carried out by world's biggest wealth holders, politicians and companies. A leak of that size is a very powerful resource to address the problem of tax evasion. Despite obviously the Panama Papers are not an exhaustve list of the hidden financial activities. 
 
@@ -18,8 +17,8 @@ The Panama papers were released in 2015, they constitue the biggest leak of fina
 
 ##### Panama papers in numbers
  
--The Panama Papers are 11.5 million leaked documents that detail financial and attorney–client information for more than 214,488 offshore entities. Some 4.8 million leaked files were emails, 3 million were database entries, 2.2 million PDFs, 1.2 million images, 320,000 text files, and 2242 files in other formats. Journalists from 107 media organizations in 80 countries analyzed documents detailing the operations of the law firm. After more than a year of analysis, the first news stories were published on April 3, 2016, along with 150 of the documents themselves.
--The sheer quantity of leaked data greatly exceeds the WikiLeaks Cablegate leak in 2010 (1.7 GB), Offshore Leaks in 2013 (260 GB), the 2014 Lux Leaks (4 GB), and the Swiss Leaks (3.3 GB) of 2015. For comparison, the Panama Papers equals approximately 2,660 GB.
+- The Panama Papers are 11.5 million leaked documents that detail financial and attorney–client information for more than 214,488 offshore entities. Some 4.8 million leaked files were emails, 3 million were database entries, 2.2 million PDFs, 1.2 million images, 320,000 text files, and 2242 files in other formats. Journalists from 107 media organizations in 80 countries analyzed documents detailing the operations of the law firm. After more than a year of analysis, the first news stories were published on April 3, 2016, along with 150 of the documents themselves.
+- The sheer quantity of leaked data greatly exceeds the WikiLeaks Cablegate leak in 2010 (1.7 GB), Offshore Leaks in 2013 (260 GB), the 2014 Lux Leaks (4 GB), and the Swiss Leaks (3.3 GB) of 2015. For comparison, the Panama Papers equals approximately 2,660 GB.
 
 
 
