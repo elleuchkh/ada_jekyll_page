@@ -14,4 +14,7 @@ title: Gallery
     
 <!-- {% include ANG_VONG_VATHANA.html %} -->
 ### FIFA
-{% include FIFA1.html %}
+
+<div class="bk-root">
+    <div class="bk-plotdiv" id="92aa1958-2dc0-4fd2-9b79-6128732de31b"></div>
+</div>
