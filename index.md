@@ -117,7 +117,7 @@ As the aim of the project was to be able to share an intuitive web application f
 
 ### Gallery
 
-[FIFA](ada_jekyll_page/_includes/FIFA1.html)
+[FIFA](_includes/FIFA1.html)
 
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)<!DOCTYPE html>
