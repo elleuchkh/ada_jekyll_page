@@ -98,7 +98,7 @@ Finally, we notice the southern countries are more involved in the officer distr
 From the raw dataset, we were able to designe a tool to query for types, names and locations 
 The provided dataset allow us to investigate for specific relationships  
 
-
+![screenshot_webapp](img/France.png){:class="img-responsive"}
 
 ---
 
