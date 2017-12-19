@@ -1,8 +1,0 @@
----
-layout: default
-title: Gallery
----
-
-!{% include Trump.html %}  
-
-!{% include FIFA1.html %}  
