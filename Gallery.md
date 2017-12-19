@@ -7,7 +7,7 @@ title: Gallery
 
 
 ### Cahuzac
-{% include Cahuzac.html %}{:class="img-responsive"}
+{% include Cahuzac.html %}
 <br>  
   
 <!-- {% include ANG_VONG_VATHANA.html %} -->
