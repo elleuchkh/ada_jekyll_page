@@ -92,6 +92,23 @@ Finally, we notice the southern countries are more involved in the officer distr
 ### Queries
 
 
+#### Density maps
+
+The tools that we developed in the frame of this project are able to show density maps representing the level of off-shore activities per country. The level of off-shore activity is actually simply measured by the number of financial actors per country repertoriated in the database. This tool has the ability to scale so that the user can be able to see some part of the world more in details. It can be very useful in the context of off-shore analysis because the most important actors are often established in small tax heavens.
+
+
+
+
+#### Connection queries
+
+We also provide a tool that let the user request a particular individual of the dataset. He/she can do so by querying its name and by applying filters concerning its nationality or its role in the financial system. When querying such an individual the database retrieves all its relationships. Then a graph is generated whose nodes are the items of the database that are directly conncted to the queried individual. Moreover the edges of the graph are used to label the relationship between two vertices of the graph. Then this graph is put in context in a map which gives much more sense to it. You can play with this tool running the `connection_query.ipynb` or the `main_pipeline.ipynb` files on our [github](https://github.com/adrienruault/ada_molmaru/tree/master/project).
+
+
+
+#### Country connections
+
+Another too that is available with our app is a feature that allows to choose a country and to query the countries that are the most closely related to the latter in terms of off-shore financial activities. It is a quite useful tool that allows to better understand the relationships between the countries.
+
 
 
 
