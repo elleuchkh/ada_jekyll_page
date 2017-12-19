@@ -102,38 +102,17 @@ The provided dataset allow us to investigate for specific relationships
 
 ---
 
+
 ### Web App
 
---
-
-### Full Project
-
-The full project is available on a [github repository](https://github.com/adrienruault/ada_molmaru/tree/master/project). It provides a Jupyter Notebook processing the data from the Panama Papers & Paradise Paper with a performant query tool to geographically display portions of actors involved in cash criminality. This tool was not implemented in this html page due to a lack of time and compliance between python's libraries and html.   
-The datasets was downloaded from [The International Consortium of Investigative Journalists](https://offshoreleaks.icij.org/pages/database) website.
 As the aim of the project was to be able to share an intuitive web application for processing simple geographical queries on the Panama Papers dataset, we focused a lot our work on the exportation of the widget obtained after milestone 2. After some research, we understood that folium was not really suitted for the sharing of the widget out of the jupyter notebook context. It also appeared that exporting the ipywidgets we used was pretty complicated. We finally found the library "Bokeh", which seemed to propose more solutions for the exportation of our app. We thus recoded our widgets on the basis of Bokeh maps, which were found to be a bit more complicated to use, but also provided new interesting fuctionalities. After the refactoring of the code, we tried to give a puclic access to our app, following the instructions of a [google tutorial](https://cloud.google.com/solutions/bokeh-and-bigquery-dashboards). This tutorial proposed to use google cloud computing machine to host the Bokeh sever of the web app, in combination with docker to provide well suited containers. Unfortunately, it appeared that we did not have the required knowledge to achieve this task: we still get some issues with the Bokeh server that is not able to find or launch our python code. We are a bit disappointed because we wanted the web app to be ready for this deadline. However, we are still going to try releasing it for the presentation of january, as it was important for to make this app shareable, and also because that we think we are not far from our goal. For the moment, the Bokeh application is avalaible on github and can be run on a machine with Bokeh installed (can be installed with pip). To run it, you can just go in the /project folder of our [ADA github repository](https://github.com/adrienruault/ada_molmaru.git), and run the command "bokeh serve --show ." (do not forget to download the data and to run the preprocessing as described in the README). Here is an overview of the generated app (run in localhost :'( ):  
 
 ![screenshot_webapp](img/webapp.png){:class="img-responsive"}
 
 
-### Gallery
+### Full Project
 
-[FIFA](_includes/FIFA1.html)
-
-
-[//]:#(---------- END OF WHAT IS VISIBLE ----------------)<!DOCTYPE html>
+The full project is available on a [github repository](https://github.com/adrienruault/ada_molmaru/tree/master/project). It provides a Jupyter Notebook processing the data from the Panama Papers & Paradise Paper with a performant query tool to geographically display portions of actors involved in cash criminality. This tool was not implemented in this html page due to a lack of time and compliance between python's libraries and html.   
+The datasets was downloaded from [The International Consortium of Investigative Journalists](https://offshoreleaks.icij.org/pages/database) website.
 
 
-<!-- Posts -->
-<ul id="posts">
-
-	{% for post in paginator.posts %}
-
-	  <li class="post">
-	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
-		<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
-	  </li>
-
-   {% endfor %}
-
-</ul>
