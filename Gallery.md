@@ -8,8 +8,8 @@ title: Gallery
 
 ### Cahuzac
 {% include Cahuzac.html %}{:class="img-responsive"}
-<br> 
-
+<br>  
+  
 <!-- {% include ANG_VONG_VATHANA.html %} -->
 ### FIFA
 {% include FIFA1.html %}
