@@ -94,6 +94,9 @@ Finally, we notice the southern countries are more involved in the officer distr
 ### Queries
 
 
+
+
+
 From the raw dataset, we were able to designe a tool to query for types, names and locations 
 The provided dataset allow us to investigate for specific relationships  
 
