@@ -1,14 +1,13 @@
 # Site settings
 title: Panama Papers
-description: "Where does the money come from ?"
-url: "https://hadrienmarcellin.github.io/ada_jekyll_page/"
+description: "Study of the Biggest Leak in History"
+url: "https://elleuchkh.github.io/ada_data_story/"
 author:
-  name: "Adrien Ruault, Guillaume Mollard, Hadrien Marcellin"
-  #email: "hello@jacoporabolini.com"
-  #url: "https://hadrienmarcellin.github.io/ada_jekyll_page/"
+  name: "ELLEUCH Khalil, HAMDI Mouadh, BOUBAKER Mariem"
+  #url: "https://elleuchkh.github.io"
 
 # Build settings
-baseurl: /ada_jekyll_page # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /ada_data_story # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
