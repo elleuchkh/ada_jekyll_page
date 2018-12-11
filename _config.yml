@@ -4,7 +4,7 @@ description: "Study of the Biggest Leak in History"
 url: "https://elleuchkh.github.io/ada_data_story/"
 author:
   name: "ELLEUCH Khalil, HAMDI Mouadh, BOUBAKER Mariem"
-  #url: "https://elleuchkh.github.io"
+  #url: "https://elleuchkh.github.io/ada_data_story/"
 
 # Build settings
 baseurl: /ada_data_story # Change this to your relative path (ex: /blog/), or leave just a /
