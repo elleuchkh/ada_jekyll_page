@@ -7,7 +7,7 @@ author:
   #url: "https://elleuchkh.github.io/ada_data_story/"
 
 # Build settings
-baseurl: /ada_data_story # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: https://elleuchkh.github.io/ada_data_story # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
