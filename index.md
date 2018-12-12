@@ -97,19 +97,21 @@ Nomenclature:
 
 ---
 
-### Leading Actors
+### Involved countries
 
 The map above shows the worldwide distribution of the three main kinds of actors : which are Offshore entities, Intermediaries and Officers. We notice those three differ from each other on a global scale even though some countries are well represented in all three cathegories.
 Regarding the offshore entities, we must notice the presence of the three economic global powers : USA, China and Russia. But they are, by far, not the more effcicient hosting countries. Indeed, in Europe, Switzerland is leading with more than 37 thousands hosted entities (10 times more than Russia), followed by Luxembourg and Great Britain. In South America, Panama has a large capital of offshore entities. In western Asia, United Arab Emirates is also leading.
 The Intermediaries are once again most located in Switzerland and Great Britain, as they are known for the privacy of their bank services. Still, the distribution of the intermediaries is very similar to the offsore entities distribution on a global scale.
 Finally, we notice the southern countries are more involved in the officer distribution. Usually officiers are settled in different juridiction than the company/private individual at the origin of the tax evasion.
 
-
-{% include plots.html %}
-
-### Queries
+<iframe src="https://github.com/elleuchkh/elleuchkh.github.io/blob/master/_includes/plot.html" width="100%" height="400px"></iframe>
 
 
+
+
+### Network
+
+<iframe src="https://labs.graphistry.com/graph/graph.html?dataset=PyGraphistry%2FEP7QQDISPK&type=vgraph&viztoken=10196f5402e3593bbe47976aab86ae4ef3c1fe08&usertag=fe496517-pygraphistry-0.9.56&info=true&play=0&workbook=459c7901a6f4abbc&fbclid=IwAR0U2eL5epXXPR-x1GrRwBoKCOE7z3W7NooY305tVUseviBkWmEJ5_OiFEw" width="100%" height="400px"></iframe>
 #### Density maps
 
 The tools that we developed in the frame of this project are able to show density maps representing the level of off-shore activities per country. The level of off-shore activity is actually simply measured by the number of financial actors per country repertoriated in the database. This tool has the ability to scale so that the user can be able to see some part of the world more in details. It can be very useful in the context of off-shore analysis because the most important actors are often established in small tax heavens.
