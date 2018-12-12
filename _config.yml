@@ -1,13 +1,13 @@
 # Site settings
 title: Panama Papers
 description: "Study of the Biggest Leak in History"
-url: "https://elleuchkh.github.io/ada_data_story/"
+url: "https://elleuchkh.github.io"
 author:
   name: "ELLEUCH Khalil, HAMDI Mouadh, BOUBAKER Mariem"
   #url: "https://elleuchkh.github.io/ada_data_story/"
 
 # Build settings
-baseurl: https://elleuchkh.github.io/ada_data_story # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl:  # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
