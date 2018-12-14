@@ -98,7 +98,7 @@ The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 ye
 ---
 
 
-### Network
+### <span style="color:red"> Network </span>
 
 <iframe src="https://labs.graphistry.com/graph/graph.html?dataset=PyGraphistry%2FEP7QQDISPK&type=vgraph&viztoken=10196f5402e3593bbe47976aab86ae4ef3c1fe08&usertag=fe496517-pygraphistry-0.9.56&info=true&play=0&workbook=459c7901a6f4abbc&fbclid=IwAR0U2eL5epXXPR-x1GrRwBoKCOE7z3W7NooY305tVUseviBkWmEJ5_OiFEw" width="100%" height="400px"></iframe>
 
@@ -106,26 +106,21 @@ The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 ye
 
 ---
 
-### World wide indexes and involved jurisdictions:
+### <span style="color:red"> Financial Secrecy Index (FSI) and involved jurisdictions </span>
 
-Our analysis has not stopped in just analyzing the involved countries. We instead wanted to get a closer view about them to find any correlation between the implication of each country in the panama papers with official indexes published by world wide organizations
-(that we thought they could be helpful for our analysis).
+Our analysis has not stopped in just analyzing the involved countries and the connection between them. We instead wanted to find any correlation between the implication of each country in the panama papers with official indexes published by world wide organizations. We studied the correlation between Financial Secrecy Index (FSI) and countries innvolved in Panama papers.
 
-#### Financial Secrecy Index (FSI)
-
+{% include fsi.html %}
 The Financial Secrecy Index (FSI) ranks jurisdictions according to their secrecy and the scale of their offshore financial activities. It is a tool for understanding global financial secrecy, tax havens or secrecy jurisdictions, and illicit financial flows or capital flight.
-
 
 We studied the correlation between the ranking of countries according to the financial secrecy and the ranking of involved countries in Panama papers. The results were relevant: we found correlations between 0.6 and 0.7. That means that the countries having a good ranking regarding Financial Secrecy Index (FSI) attract more offshore entities, which can be explained :
 
 A company or private individual may create an offshore in countries where, preferably, regulations are weak, for example, no need to name the owner. These companies are usually limited liability companies and don’t conduct any business, they just own financial assets of their owner. In fact, this is the main point of Panama papers involved officers. Those countries are basically offshore center that provides financial services to nonresidents on a scale that is incommensurate with the size and the financing of its domestic economy. Secrecy jurisdictions use secrecy to attract illicit and illegitimate or abusive financial flows.
 
 
-#### World Happiness Index
 
 
-
-#### A brief word about corruption
+### <span style="color:red"> Conclusion </span>
 Corruption and inequality feed off each other, creating a vicious circle between corruption, unequal distribution of power in society, and unequal distribution of wealth. As the Panama Papers showed, it is still far too easy for the rich and powerful to exploit the opaqueness of the global financial system to enrich themselves at the expense of the public good.
 
 
