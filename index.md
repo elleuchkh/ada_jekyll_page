@@ -36,16 +36,14 @@ We combined all the datasets together to get more information, and then structur
 
 An other important dataset was used in our analysis which is :
 
--  **Edges:** they connect nodes from the above parts and describe the nature of the relation between them.
-This dataset was very important especially in network analysis.  
-
+-  **<span style="color:blue"> Edges: </span>** they connect nodes from the above parts and describe the nature of the relation between them. This dataset was very important especially in network analysis.  
 
 
 ---
 
 ### <span style="color:red"> Outline of the project </span>
 
-There is a huge amount of data, our work will be to provide a detailed analysis of the dataset. We will not focus our analysis on individuals but we will instead be getting a closer view about the involved countries and the distribution of the papers around the world. We will try to find any correlation between the implication of each country in the panama papers with other finacial studies such as Financial secrecy index, Corruption ... and with any other interesting information we could get about those countries.
+There is a huge amount of data, our work was to provide a detailed analysis of the dataset. We didn't focus our analysis on specific individuals. we tried instead to get a closer view about the involved countries and the distribution of the papers around the world.We will show you a brief presentation of the involved countries and the connection between them. Finally, we looked for any correlation between the implication of each country in the panama papers with international indexes. We will try to explain the correlation found with Financial Secrecy Index (FSI) and the countries.
 
 ##### <span style="color:green"> Research questions </span>
 
@@ -78,7 +76,7 @@ To fulfill a tax evasion, the offshore companies also need a go-between with a s
 
 {% include active.html %}
 
-Mossack Fonseca worked with intermediaries in more than 100 countries all over the globe. Their most active clients by number of offshore company incorporations were from Hong Kong, Switzerland and the United Kingdom.
+Mossack Fonseca worked with intermediaries in more than 100 countries all over the globe. Their most active clients by number of offshore company incorporations were from the United Kingdom, Hong Kong and Switzerland  .
 
 #### <span style="color:green"> Officers </span>
 
@@ -88,8 +86,14 @@ Regarding the officers, It is noticeable to say that most countries involved in 
 
 To conclude, countries involved in Panama papers are around the word. The offshore entities are not related to Panama or American and Europeen countries. Companies, busniessmans, football players and even politicians all around the world had an issue with Panama papers.
 
+#### <span style="color:green"> 40 years of offshore companies opening and closing </span>
 
+{% include incorporation.html %}
 
+- *Incorporation year:* the date when an offshore entity was created.
+- *Inactivation year:* the date when a client told the agent to desactivate the offshore entity which could be recreated at a later date.
+
+The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 years of data. Mossack Fonseca’s clients have been rapidly deactivating companies since 2005. The number of incorporations of offshore entities has been decreasing rapidly since 2003.
 
 ---
 
