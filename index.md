@@ -31,7 +31,9 @@ We combined all the datasets together to get more information, and then structur
 
 
 **<span style="color:blue"> Entities: </span>** is a company, trust or fund created in a low tax offshore jurisdiction.
+
 **<span style="color:blue">Officers: </span>** a person or a company who plays role in an offshore entity.
+
 **<span style="color:blue"> Intermediairies: </span>** the link between someone seeking an offshore and an offshore service provider.
 
 An other important dataset was used in our analysis which is :
