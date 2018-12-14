@@ -9,34 +9,36 @@ published: true
 <br>   
 <br>   
 
+
+
 ### <span style="color:red"> Introduction to the Panama Papers </span>
 
 The Panama Papers involved hundred thousands of offshore accounts, millions of documents detailing top secret financial information were leaked in 2015 by an anonymous source. It is estimated that tax havens cost poor countries at least $170 billion in lost tax revenues each year making poorest people lose out and the inequality gap grow. Holding money in an offshore company is generally not illegal but it can be used to launder money, dodge sanctions, avoid taxes. Many people listed in the panama papers claimed being innocent.
 
 
-##### <span style="color:green"> Some relevant numbers related to Panama papers </span>
+<U><b> Some relevant numbers related to Panama papers </b></U>
 
 - 11.5 millions leaked documents that detail financial and attorney–client informations
-- More than 214,488 offshore entitie involved.
+- More than 214,488 offshore entities involved.
 - Some 4.8 millions leaked files were emails, 3 millions were database entries, 2.2 millions PDFs, 1.2 millions images, 320,000 text files, and 2242 files in other formats.
 - 2.6 terabyte trove of data at the core of this investigation contains nearly 40 years of records.
 
 
 
-##### <span style="color:green"> A word about the dataset before starting </span>
+<U><b> A word about the dataset before starting </b></U>
 
 Unfortunately, we don't have access to big part of the data and metadata from the original leaks. So, we decided to enrich our data with other similar datasets found in [The International Consortium of Investigative Journalists](https://offshoreleaks.icij.org/pages/database) (ICIJ): *Paradise papers*, *Offshore leaks* and *Bahamas leaks*.
 
 We combined all the datasets together to get more information, and then structured them in 3 relevant datasets. Each one represents a specified role of involved parties:
 
 
-- **<span style="color:blue"> Entities: </span>** is a company, trust or fund created in a low tax offshore jurisdiction.
-- **<span style="color:blue"> Officers: </span>** a person or a company who plays role in an offshore entity.
-- **<span style="color:blue"> Intermediaries: </span>** the link between someone seeking an offshore and an offshore service provider.
+-  *Entities:* is a company, trust or fund created in a low tax offshore jurisdiction.
+- *Officers:* a person or a company who plays role in an offshore entity.
+- *Intermediaries:* the link between someone seeking an offshore and an offshore service provider.
 
 An other important dataset was used in our analysis which is :
 
--  **<span style="color:blue"> Edges: </span>** they connect nodes from the above parts and describe the nature of the relation between them. This dataset was very important especially in network analysis.  
+-  *Edges:* they connect nodes from the above parts and describe the nature of the relation between them. This dataset was very important especially in network analysis.  
 
 
 ---
@@ -45,7 +47,7 @@ An other important dataset was used in our analysis which is :
 
 There is a huge amount of data, our work was to provide a detailed analysis of the dataset. We didn't focus our analysis on specific individuals. we tried instead to get a closer view about the involved countries and the distribution of the papers around the world.We will show you a brief presentation of the involved countries and the connection between them. Finally, we looked for any correlation between the implication of each country in the panama papers with international indexes. We will try to explain the correlation found with Financial Secrecy Index (FSI) and the countries.
 
-##### <span style="color:green"> Research questions </span>
+<U><b> Research questions </b></U>
 
 - What is the distribution of officers, entities and intermediaries around the world? It is based in specified countries or it is overspread? <br>  
 - Can we relate our rankings to other world known indicators? <br>  
@@ -60,25 +62,25 @@ We strongly believe in the usefulness of this kind of project in order to get a 
 ###  <span style="color:red"> Involved countries </span>
 The worldwide distribution of the three main kinds of actors (which are Offshore entities, intermediaries and officers) is different. Each one differ from the others on a global scale even though some countries are represented in all three categories.
 
-#### <span style="color:green"> Entities </span>
+<U><b> Entities </b></U>
 
 {% include entities.html %}
 
 Regarding the offshore entities, the presence of economic global powers is clear : US and Russia. But they are other efficient hosting countries. Indeed, in Europe, Switzerland and Malta are leading with a very huge number comparing the other countries followed by Great Britain and Luxembourg. In South America, Panama has a large capital of offshore entities. In western Asia, United Arab Emirates is also leading. It is noticeable that a lot of top countries involved belongs to offshore financial centers according to FMI, which is very logic. Companies look for low tax offshore jurisdiction to maximize their benefits.
 
-#### <span style="color:green"> Intermediaries </span>
+<U><b> Intermediaries </b></U>
 
 {% include intermediaries.html %}
 
 To fulfill a tax evasion, the offshore companies also need a go-between with a service provider, these intermediaries usually are law-firms, banks or middlemen that asks an offshore service provider to create an offshore firm for a client. The Intermediaries are once again most located in Switzerland and Great Britain, as they are known for the privacy of their bank services. Still, the distribution of the intermediaries is very similar to the offshore entities distribution on a global scale. The intermediaries involve mainly in the phases of the identified decision-making cycle (advice, creation, maintenance, enforcement).
 
-**<span style="color:blue"> Active intermediaries </span>**
+<U><b> Active intermediaries </b></U>
 
 {% include active.html %}
 
 Mossack Fonseca worked with intermediaries in more than 100 countries all over the globe. Their most active clients by number of offshore company incorporations were from the United Kingdom, Hong Kong and Switzerland  .
 
-#### <span style="color:green"> Officers </span>
+<U><b> Officers </b></U>
 
 {% include officers.html %}
 
@@ -88,7 +90,7 @@ Regarding the officers, It is noticeable to say that most countries involved in 
 
 To conclude, countries involved in Panama papers are around the world. The offshore entities are not related to Panama or american and european countries. Companies, businessmen, football players and even politicians all around the world had an issue with Panama papers.
 
-#### <span style="color:green"> 40 years of offshore companies opening and closing </span>
+<U><b> 40 years of offshore companies opening and closing </b></U>
 
 {% include incorporation.html %}
 
