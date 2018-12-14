@@ -25,7 +25,7 @@ The Panama Papers involved hundred thousands of offshore accounts, millions of d
 
 ##### <span style="color:green"> A word about the dataset before starting </span>
 
-Unfortunately, we don't have access to big part of the data and metadata from the original leaks. So, we decided to enrich our data with other similar datasets found in ICIJ (The International Consortium of Investigative Journalists):Paradise papers, Offshore leaks and Bahamas leaks.
+Unfortunately, we don't have access to big part of the data and metadata from the original leaks. So, we decided to enrich our data with other similar datasets found in [The International Consortium of Investigative Journalists](https://offshoreleaks.icij.org/pages/database) (ICIJ): *Paradise papers*, *Offshore leaks* and *Bahamas leaks*.
 
 We combined all the datasets together to get more information, and then structured them in 3 relevant datasets. Each one represents a specified role of involved parties:
 
