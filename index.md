@@ -30,9 +30,9 @@ Unfortunately, we don't have access to big part of the data and metadata from th
 We combined all the datasets together to get more information, and then structured them in 3 relevant datasets. Each one represents a specified role of involved parties:
 
 
-**<span style="color:blue">- Entities: </span>** is a company, trust or fund created in a low tax offshore jurisdiction.
-**<span style="color:blue">- Officers: </span>** a person or a company who plays role in an offshore entity.
-**<span style="color:blue">- Intermediairies: </span>** the link between someone seeking an offshore and an offshore service provider.
+- **<span style="color:blue"> Entities: </span>** is a company, trust or fund created in a low tax offshore jurisdiction.
+- **<span style="color:blue"> Officers: </span>** a person or a company who plays role in an offshore entity.
+- **<span style="color:blue"> Intermediairies: </span>** the link between someone seeking an offshore and an offshore service provider.
 
 An other important dataset was used in our analysis which is :
 
