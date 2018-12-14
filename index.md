@@ -32,7 +32,7 @@ We combined all the datasets together to get more information, and then structur
 
 - **<span style="color:blue"> Entities: </span>** is a company, trust or fund created in a low tax offshore jurisdiction.
 - **<span style="color:blue"> Officers: </span>** a person or a company who plays role in an offshore entity.
-- **<span style="color:blue"> Intermediairies: </span>** the link between someone seeking an offshore and an offshore service provider.
+- **<span style="color:blue"> Intermediaries: </span>** the link between someone seeking an offshore and an offshore service provider.
 
 An other important dataset was used in our analysis which is :
 
@@ -47,9 +47,9 @@ There is a huge amount of data, our work was to provide a detailed analysis of t
 
 ##### <span style="color:green"> Research questions </span>
 
-- What is the distribution of officers, entities and intermediaries around the world? It is based in specified countries or it is overspreaded? <br>  
+- What is the distribution of officers, entities and intermediaries around the world? It is based in specified countries or it is overspread? <br>  
 - Can we relate our rankings to other world known indicators? <br>  
-- What is the effect of suspecious investments on some countries? (Espcially top Tax havens) <br>  
+- What is the effect of suspicious investments on some countries? (Especially top Tax havens) <br>  
 - Does Mossack Fonseca have connections with entities (intermediary companies, clients, beneficiaries and shareholders) based in countries <br>  
 - Which had a high degree of illicit outflows? <br>  
 
@@ -58,7 +58,7 @@ We strongly believe in the usefulness of this kind of project in order to get a 
 
 
 ###  <span style="color:red"> Involved countries </span>
-The map show the worldwide distribution of the three main kinds of actors : which are Offshore entities, intermediaries and officers. We notice that the three of them differ from each other on a global scale even though some countries are represented in all three categories.
+The worldwide distribution of the three main kinds of actors (which are Offshore entities, intermediaries and officers) is different. Each one differ from the others on a global scale even though some countries are represented in all three categories.
 
 #### <span style="color:green"> Entities </span>
 
@@ -82,16 +82,18 @@ Mossack Fonseca worked with intermediaries in more than 100 countries all over t
 
 {% include officers.html %}
 
+
 Regarding the officers, It is noticeable to say that most countries involved in entities are present here, which is very logic. But, other countries appeared here, especially Germany, Italy and Russia. It means that officers may have a relationship with companies in those countries. We will explain that in the next part.
 
-To conclude, countries involved in Panama papers are around the word. The offshore entities are not related to Panama or American and Europeen countries. Companies, busniessmans, football players and even politicians all around the world had an issue with Panama papers.
+
+To conclude, countries involved in Panama papers are around the world. The offshore entities are not related to Panama or american and european countries. Companies, businessmen, football players and even politicians all around the world had an issue with Panama papers.
 
 #### <span style="color:green"> 40 years of offshore companies opening and closing </span>
 
 {% include incorporation.html %}
 
 - *Incorporation year:* the date when an offshore entity was created.
-- *Inactivation year:* the date when a client told the agent to desactivate the offshore entity which could be recreated at a later date.
+- *Inactivation year:* the date when a client told the agent to deactivate the offshore entity which could be recreated at a later date.
 
 The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 years of data. Mossack Fonseca’s clients have been rapidly deactivating companies since 2005. The number of incorporations of offshore entities has been decreasing rapidly since 2003.
 
@@ -99,6 +101,12 @@ The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 ye
 
 
 ### <span style="color:red"> Network </span>
+
+{% include entity.html %}
+
+
+{% include edges.html %}
+
 
 <iframe src="https://labs.graphistry.com/graph/graph.html?dataset=PyGraphistry%2FEP7QQDISPK&type=vgraph&viztoken=10196f5402e3593bbe47976aab86ae4ef3c1fe08&usertag=fe496517-pygraphistry-0.9.56&info=true&play=0&workbook=459c7901a6f4abbc&fbclid=IwAR0U2eL5epXXPR-x1GrRwBoKCOE7z3W7NooY305tVUseviBkWmEJ5_OiFEw" width="100%" height="400px"></iframe>
 
@@ -108,7 +116,7 @@ The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 ye
 
 ### <span style="color:red"> Financial Secrecy Index (FSI) and involved jurisdictions </span>
 
-Our analysis has not stopped in just analyzing the involved countries and the connection between them. We instead wanted to find any correlation between the implication of each country in the panama papers with official indexes published by world wide organizations. We studied the correlation between Financial Secrecy Index (FSI) and countries innvolved in Panama papers.
+Our analysis has not stopped in just analyzing the involved countries and the connection between them. We instead wanted to find any correlation between the implication of each country in the panama papers with official indexes published by world wide organizations. We studied the correlation between Financial Secrecy Index (FSI) and countries involved in Panama papers.
 
 {% include fsi.html %}
 The Financial Secrecy Index (FSI) ranks jurisdictions according to their secrecy and the scale of their offshore financial activities. It is a tool for understanding global financial secrecy, tax havens or secrecy jurisdictions, and illicit financial flows or capital flight.
@@ -124,10 +132,8 @@ A company or private individual may create an offshore in countries where, prefe
 Corruption and inequality feed off each other, creating a vicious circle between corruption, unequal distribution of power in society, and unequal distribution of wealth. As the Panama Papers showed, it is still far too easy for the rich and powerful to exploit the opaqueness of the global financial system to enrich themselves at the expense of the public good.
 
 
-
 ---
 
+### <span style="color:red"> Full project </span>
 
-### Full Project
-
-The full project is available on a [github repository](https://github.com/mouadhhamdi/ADA-Project). It provides 2 Jupyter Notebook. A first one for cleaning the data from the different datasets downloaded from [The International Consortium of Investigative Journalists](https://offshoreleaks.icij.org/pages/database).The second one is the main project where we analysed the data, did the network analysis and studied the correlations. If you want more information about our project, please contact us via e-mail (you can find the in About section)
+The full project is available on a [github repository](https://github.com/mouadhhamdi/ADA-Project). It provides 2 Jupyter Notebook. A first one for cleaning the data from the different datasets downloaded from [The International Consortium of Investigative Journalists](https://offshoreleaks.icij.org/pages/database).The second one is the main project where we analysed the data, did the network analysis and studied the correlations. If you want more information about our project, please contact us via email (you can find them in About section)
