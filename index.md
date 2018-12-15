@@ -40,7 +40,6 @@ An other important dataset was used in our analysis which is :
 
 -  *Edges:* they connect nodes from the above parts and describe the nature of the relation between them. This dataset was very important especially in network analysis.  
 
-<iframe src="https://github.com/elleuchkh/elleuchkh.github.io/blob/master/_includes/distributions_of_centrality.html" width="100%" height="400px"></iframe>
 
 ---
 
@@ -105,14 +104,55 @@ The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 ye
 
 ### <span style="color:red"> Network </span>
 
+While it’s true that investigating simple relationships in data could be handled by a relational database, they’re not an especially satisfactory fit, as they represent data as tables, not networks. The ICIJ organization has been using graph database technology to draw links between members of the tax avoiding global elite and bank account held in offshore tax haven.
+A network analysis will be held to understand these structures and discover connections in a very intuitive way.
+
+In order to get valuable information from the network we constructed, we tried to use some algorithms to understand the importance of nodes according to their characteristics.
+
+
+<U><b> Importance of nodes</b></U>
+
+- *Degree centrality:* This algorithm puts into light the countries that have  the biggest number of connections.
+This number can be interpreted in terms of the immediate risk of a country being involved in questionable business.
+
+
+- *Page rank:* This algorithm computes the ranking of the countries in the graph based on the structure of the incoming links.
+A country is important if it is pointed by other important countries
+
+
+- *Betweeness centrality:* The betweenness centrality for each country is the number of the shortest paths that pass through the country.
+High betweenness countries are often critical to collaboration across different groups.
+
+Those metrics were the tool that we used to determine the top three most important countries in the network: United Kingdom, Switzerland and Hong Kong.
+
+
 {% include entity.html %}
 
+This map represents the distribution of degree centralities. This map shows us that a lot of european countries are important in the leaks. No surprise here since the European Parliament's Panama Papers Committee of Inquiry was heavily accusing European governments to have been complicit with money launderers and tax evaders for over 20 years:
+
+
+<U><b> Importance of edges </b></U>
+Another interesting result was obtained by the use of  the edge betweenness centrality:
+One could think that the most important edges would be between the countries mentioned above but instead of that the most important ones where between first world countries and third world countries.
+The most important edge in our network was the one between Switzerland and Mali.
+
+Since switzerland seems to be an important player in this network the following map  shows the connections of the entities based in switzerland and other world countries:
 
 {% include edges.html %}
 
+The result is not surprising again since the paper revealed that 1,339 Swiss lawyers, financial advisors and other middlemen had set up more than 38,000 offshore entities over the past 40 years.
+
+As a consequence the inter-governmental Financial Action Task Force (FATF) called on the Swiss to do more to thwart financial crime. However, the  EU also has been pushing a new Anti-Tax Avoidance Package. It is now introducing a new rule that requires the largest companies operating in the EU to disclose key information on where they make their profits and where they pay their tax in the EU on a country-by-country basis.
+
+In order to get a more intuitions about the graph connections and relation we decided that we will create a weighted graph from countries where each link represent the number entities linked to countries:
 
 <iframe src="https://labs.graphistry.com/graph/graph.html?dataset=PyGraphistry%2FEP7QQDISPK&type=vgraph&viztoken=10196f5402e3593bbe47976aab86ae4ef3c1fe08&usertag=fe496517-pygraphistry-0.9.56&info=true&play=0&workbook=459c7901a6f4abbc&fbclid=IwAR0U2eL5epXXPR-x1GrRwBoKCOE7z3W7NooY305tVUseviBkWmEJ5_OiFEw" width="100%" height="400px"></iframe>
 
+To make our graph be interactive and highly sophisticated we decided to use  Graphistry. This library enables visual investigation of the graph, by putting the mouse on the node or the edge we will see all there attributes.
+
+It also allow us to extract a lot of mathematical relations such as histograms (degree of nodes, edges in, edges out ...).
+
+This graph represents the weighted projection of the bipartite graph, here we take into account the number of commun associations between countries as weights. It is clear that again some countries dominates the graph such as Switzerland, Hong Kong, Singapore ..
 
 
 ---
