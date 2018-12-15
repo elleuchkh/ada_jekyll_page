@@ -132,6 +132,7 @@ This map represents the distribution of degree centralities. This map shows us t
 
 
 <U><b> Importance of edges </b></U>
+
 Another interesting result was obtained by the use of  the edge betweenness centrality:
 One could think that the most important edges would be between the countries mentioned above but instead of that the most important ones where between first world countries and third world countries.
 The most important edge in our network was the one between Switzerland and Mali.
