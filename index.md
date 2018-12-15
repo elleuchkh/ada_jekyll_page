@@ -40,6 +40,7 @@ An other important dataset was used in our analysis which is :
 
 -  *Edges:* they connect nodes from the above parts and describe the nature of the relation between them. This dataset was very important especially in network analysis.  
 
+<iframe src="https://github.com/elleuchkh/elleuchkh.github.io/blob/master/_includes/distributions_of_centrality.html" width="100%" height="400px"></iframe>
 
 ---
 
