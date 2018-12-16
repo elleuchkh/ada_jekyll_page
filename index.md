@@ -95,7 +95,7 @@ Regarding the officers, It is noticeable to say that most countries involved in 
 
 The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 years of data. Mossack Fonseca’s clients have been rapidly deactivating companies since 2005. The number of incorporations of offshore entities has been decreasing rapidly since 2003.
 
-To conclude, countries involved in Panama papers are around the world. The offshore entities are not related to particular countries. Companies, businessmen, football players and even politicians all around the world had an issue with Panama papers.
+To conclude, countries involved in Panama papers are around the world. The offshore entities are not related to particular countries. Companies, businessmen, football players and even politicians all around the world had an issue with Panama papers. Here is a map that summarizes the distributions of countries:
 
 <b>PS:</b> We chose to present this map in a log scale to be more significant because the gap is very large between the countries.
 
@@ -113,31 +113,27 @@ In order to get valuable information from the network we constructed, we tried t
 
 <U><b> Importance of nodes</b></U>
 
-- <U><i> Degree centrality: </i></U> This algorithm puts into light the countries that have  the biggest number of connections.
-This number can be interpreted in terms of the immediate risk of a country being involved in questionable business.
+- <U><i> Degree centrality: </i></U> This algorithm puts into light the countries that have  the biggest number of connections. This number can be interpreted in terms of the immediate risk of a country being involved in questionable business.
 
 
-- <U><i> Page rank: </i></U> This algorithm computes the ranking of the countries in the graph based on the structure of the incoming links.
-A country is important if it is pointed by other important countries
+- <U><i> Page rank: </i></U> This algorithm computes the ranking of the countries in the graph based on the structure of the incoming links. A country is important if it is pointed by other important countries
 
 
-- <U><i> Betweeness centrality: </i></U> The betweenness centrality for each country is the number of the shortest paths that pass through the country.
-High betweenness countries are often critical to collaboration across different groups.
+- <U><i> Betweeness centrality: </i></U> The betweenness centrality for each country is the number of the shortest paths that pass through the country. High betweenness countries are often critical to collaboration across different groups.
 
 Those metrics were the tool that we used to determine the top three most important countries in the network: United Kingdom, Switzerland and Hong Kong.
 
 <iframe src="distributions_of_centrality.html" width="100%" height="400px"></iframe>
 
-This map represents the distribution of degree centralities. This map shows us that a lot of european countries are important in the leaks. No surprise here since the European Parliament's Panama Papers Committee of Inquiry was heavily accusing European governments to have been complicit with money launderers and tax evaders for over 20 years:
+This map represents the distribution of degree centralities of the nodes (countries). It shows us the importance of European countries in the leaks. There is no surprise here since the European Parliament's Panama Papers Committee of Inquiry was heavily accusing European governments to have been complicit with money launderers and tax evaders for over 20 years.
 
 
 <U><b> Importance of edges </b></U>
 
-Another interesting result was obtained by the use of  the edge betweenness centrality:
-One could think that the most important edges would be between the countries mentioned above but instead of that the most important ones where between first world countries and third world countries.
+Another interesting result was obtained by the use of  the edge betweenness centrality. One could think that the most important edges would be between the countries mentioned above. But, instead of that, the most important ones where between first world countries and third world countries.
 The most important edge in our network was the one between Switzerland and Mali.
 
-Since switzerland seems to be an important player in this network the following map  shows the connections of the entities based in switzerland and other world countries:
+Since switzerland seems to be an important player in this network, the following map shows the connections of the entities based in switzerland and other world countries:
 
 {% include edges.html %}
 
@@ -145,13 +141,13 @@ Since switzerland seems to be an important player in this network the following 
 
 The result is not surprising again since the paper revealed that 1,339 Swiss lawyers, financial advisors and other middlemen had set up more than 38,000 offshore entities over the past 40 years.
 
-As a consequence the inter-governmental Financial Action Task Force (FATF) called on the Swiss to do more to thwart financial crime. However, the  EU also has been pushing a new Anti-Tax Avoidance Package. It is now introducing a new rule that requires the largest companies operating in the EU to disclose key information on where they make their profits and where they pay their tax in the EU on a country-by-country basis.
+As a consequence, the inter-governmental Financial Action Task Force (FATF) called on the Swiss to do more to thwart financial crime. However, the  EU also has been pushing a new Anti-Tax Avoidance Package. It is now introducing a new rule that requires the largest companies operating in the EU to disclose key information on where they make their profits and where they pay their tax in the EU on a country-by-country basis.
 
 In order to get a more intuitions about the graph connections and relation we decided that we will create a weighted graph from countries where each link represent the number entities linked to countries:
 
 <iframe src="https://labs.graphistry.com/graph/graph.html?dataset=PyGraphistry%2FEP7QQDISPK&type=vgraph&viztoken=10196f5402e3593bbe47976aab86ae4ef3c1fe08&usertag=fe496517-pygraphistry-0.9.56&info=true&play=0&workbook=459c7901a6f4abbc&fbclid=IwAR0U2eL5epXXPR-x1GrRwBoKCOE7z3W7NooY305tVUseviBkWmEJ5_OiFEw" width="100%" height="400px"></iframe>
 
-To make our graph be interactive and highly sophisticated we decided to use  Graphistry. This library enables visual investigation of the graph, by putting the mouse on the node or the edge we will see all there attributes.
+To make our graph interactive and highly sophisticated we decided to use [Graphistry](https://www.graphistry.com/). This library enables visual investigation of the graph, by putting the mouse on the node or the edge we will see all there attributes.
 
 It also allow us to extract a lot of mathematical relations such as histograms (degree of nodes, edges in, edges out ...).
 
@@ -173,10 +169,11 @@ We studied the correlation between the ranking of countries according to the fin
 A company or private individual may create an offshore in countries where, preferably, regulations are weak, for example, no need to name the owner. These companies are usually limited liability companies and don’t conduct any business, they just own financial assets of their owner. In fact, this is the main point of Panama papers involved officers. Those countries are basically offshore center that provides financial services to nonresidents on a scale that is incommensurate with the size and the financing of its domestic economy. Secrecy jurisdictions use secrecy to attract illicit and illegitimate or abusive financial flows.
 
 
-
+---
 
 ### <span style="color:red"> Conclusion </span>
-Corruption and inequality feed off each other, creating a vicious circle between corruption, unequal distribution of power in society, and unequal distribution of wealth. As the Panama Papers showed, it is still far too easy for the rich and powerful to exploit the opaqueness of the global financial system to enrich themselves at the expense of the public good.
+
+The Panama Papers expose the internal operations of one of the world’s leading firms in incorporation of offshore entities. Politicians, football players and busniessmen all around the world were involved. Even if the offshore entities are legal, politicians and responsibles should revise this phenomon because corruption and money laundring can be very easy in a such environment. In fact,corruption and inequality feed off each other. They create a vicious circle between corruption, unequal distribution of power in society, and unequal distribution of wealth. As showed in the Panama Papers, it is still too easy for the rich and powerful people to exploit the loophole of the global financial system to enrich themselves at the expense of the public good.
 
 
 ---
