@@ -57,7 +57,11 @@ We will try to explain the phenomenon by analyzing the datasets in order to unde
 
 
 ###  <span style="color:red"> Involved countries </span>
-The worldwide distribution of the three main kinds of actors (which are Offshore entities, intermediaries and officers) is different. Each one differ from the others on a global scale even though some countries are "well" represented in all the categories.
+The map below show the worldwide distribution of the three main kinds of actors : which are Offshore entities, intermediaries and officers. We notice that the three of them differ from each other on a global scale even though some countries are "well" represented in all three categories.
+
+<b>PS:</b> We chose to present this map in a log scale to be more significant because the gap is very large between the countries.
+
+<iframe src="countries.html" width="100%" height="400px"></iframe>
 
 <U><b> Entities </b></U>
 
@@ -69,13 +73,13 @@ Regarding the offshore entities, the presence of economic global powers is clear
 
 {% include intermediaries.html %}
 
-To fulfill a tax evasion, the offshore companies also need a go-between with a service provider, these intermediaries usually are law-firms, banks or middlemen that asks an offshore service provider to create an offshore firm for a client. The Intermediaries are once again most located in Switzerland and Great Britain, as they are known for the privacy of their bank services. Still, the distribution of the intermediaries is very similar to the offshore entities distribution on a global scale. The intermediaries involve mainly in the phases of the identified decision-making cycle (advice, creation, maintenance, enforcement).
+To fulfill a tax evasion, the offshore companies also need a go-between with a service provider, these intermediaries usually are law-firms, banks or middlemen that asks an offshore service provider to create an offshore firm for a client. The Intermediaries are once again most located in Hong Kong, Great Britain and Switzerland , as they are known for the privacy of their bank services. Still, the distribution of the intermediaries is very similar to the offshore entities distribution on a global scale. The intermediaries involve mainly in the phases of the identified decision-making cycle (advice, creation, maintenance, enforcement).
 
 <U><b> Active intermediaries </b></U>
 
 {% include active.html %}
 
-Mossack Fonseca worked with intermediaries in more than 100 countries all over the globe. Their most active clients by number of offshore company incorporations were from the United Kingdom, Hong Kong and Switzerland  .
+Intermediaries play an important role in decision making, which involves more people and juridictions related to Panama papers. That's why, we want to understand more about them and plot the most active intermediaries. Mossack Fonseca worked with intermediaries in more than 100 countries all over the globe. Their most active clients by number of offshore company incorporations were from the United Kingdom, Hong Kong and Switzerland  .
 
 <U><b> Officers </b></U>
 
@@ -122,8 +126,7 @@ High betweenness countries are often critical to collaboration across different 
 
 Those metrics were the tool that we used to determine the top three most important countries in the network: United Kingdom, Switzerland and Hong Kong.
 
-
-{% include entity.html %}
+<iframe src="distributions_of_centrality.html" width="100%" height="400px"></iframe>
 
 This map represents the distribution of degree centralities. This map shows us that a lot of european countries are important in the leaks. No surprise here since the European Parliament's Panama Papers Committee of Inquiry was heavily accusing European governments to have been complicit with money launderers and tax evaders for over 20 years:
 
@@ -138,7 +141,7 @@ Since switzerland seems to be an important player in this network the following 
 
 {% include edges.html %}
 
-<iframe src="distributions_of_centrality.html" width="100%" height="400px"></iframe>
+
 
 The result is not surprising again since the paper revealed that 1,339 Swiss lawyers, financial advisors and other middlemen had set up more than 38,000 offshore entities over the past 40 years.
 
@@ -161,7 +164,8 @@ This graph represents the weighted projection of the bipartite graph, here we ta
 
 Our analysis has not stopped in just analyzing the involved countries and the connection between them. We instead wanted to find any correlation between the implication of each country in the panama papers with official indexes published by world wide organizations. We studied the correlation between Financial Secrecy Index (FSI) and countries involved in Panama papers.
 
-{% include fsi.html %}
+<iframe src="fsi.html" width="100%" height="400px"></iframe>
+
 The Financial Secrecy Index (FSI) ranks jurisdictions according to their secrecy and the scale of their offshore financial activities. It is a tool for understanding global financial secrecy, tax havens or secrecy jurisdictions, and illicit financial flows or capital flight.
 
 We studied the correlation between the ranking of countries according to the financial secrecy and the ranking of involved countries in Panama papers. The results were relevant: we found correlations between 0.6 and 0.7. That means that the countries having a good ranking regarding Financial Secrecy Index (FSI) attract more offshore entities, which can be explained :
