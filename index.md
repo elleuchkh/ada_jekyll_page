@@ -13,7 +13,7 @@ published: true
 
 ### <span style="color:red"> Introduction to the Panama Papers </span>
 
-Panama Papers involved hundred thousands of offshore accounts, millions of documents detailing top secret financial information were leaked in 2015 by an anonymous source. It is estimated that tax havens cost poor countries at least $170 billion in lost tax revenues each year making poorest people lose out and the inequality gap grow. Holding money in an offshore company is generally not illegal but it can be used to launder money, dodge sanctions, avoid taxes. Many people listed in the panama papers claimed being innocent.
+Panama Papers involved hundred thousands of offshore accounts. Millions of documents detailing top secret financial information were leaked in 2015 by an anonymous source. It is estimated that tax havens cost poor countries at least $170 billion in lost tax revenues each year making poorest people lose out and the inequality gap grow. Holding money in an offshore company is generally not illegal but it can be used to launder money, dodge sanctions, avoid taxes. Many people listed in the panama papers claimed being innocent.
 
 
 <U><b> Some relevant numbers related to Panama papers </b></U>
@@ -31,7 +31,7 @@ Unfortunately, we don't have access to big part of the data and metadata from th
 
 {% include service.html %}
 
-We combined all the datasets together to get more information, and then structured them in 3 relevant datasets. Each one represents a specified role of involved parties:
+We combined all the datasets together to get more information, and then structured them in 3 relevant datasets. Each one represents a specific role of involved parties:
 
 
 - <U><i>Entities:</i></U> is a company, trust or fund created in a low tax offshore jurisdiction.
@@ -40,18 +40,18 @@ We combined all the datasets together to get more information, and then structur
 
 An other important dataset was used in our analysis which is :
 
--  <U><i>Edges:</i></U> they connect nodes from the above parts and describe the nature of the relation between them. This dataset was very important especially in network analysis.  
+-  <U><i>Edges:</i></U> they connect nodes from the parts above and describe the nature of the relation between them. This dataset was very important especially in network analysis.  
 
 
 ---
 
 ### <span style="color:red"> Outline of the project </span>
 
-There is a huge amount of data, our work was to provide a detailed analysis of the dataset. We didn't focus our analysis on specific individuals. we tried instead to get a closer view about the involved countries and the distribution of the papers around the world.We will show you a brief presentation of the involved countries and the connection between them. Finally, we looked for any correlation between the implication of each country in the panama papers with international indexes. We will try to explain the correlation found between Financial Secrecy Index (FSI) and the countries.
+There is a huge amount of data. Our work was to provide a detailed analysis of the dataset. We didn't focus our analysis on specific individuals. We tried instead to get a closer view about the involved countries and the distribution of the papers around the world.We will show you a brief presentation of the involved countries and the connection between them. Finally, we looked for any correlation between the implication of each country in the panama papers with international indexes. We will try to explain the correlation found between Financial Secrecy Index (FSI) and the countries.
 
 <U><b> Research questions </b></U>
 
-- What is the distribution of officers, entities and intermediaries around the world? It is based in specified countries or it is overspread? <br>
+- What is the distribution of officers, entities and intermediaries around the world? Is it based in specific countries or is it overspread? <br>
 - Based on network analysis, how can we describe the relationship and the connection between those countries? <br>    
 - Can we relate our rankings to other world known indicators such as Financial Secrecy Index (FSI)? <br>  
 
@@ -67,13 +67,13 @@ The worldwide distribution of the three main kinds of actors (which are Offshore
 
 {% include entities.html %}
 
-Regarding the offshore entities, the presence of economic global powers is clear : US and Russia. But they are other efficient hosting countries. Indeed, in Europe, Switzerland and Malta are leading with a very huge number comparing the other countries followed by Great Britain and Luxembourg. In South America, Panama has a large capital of offshore entities. In western Asia, United Arab Emirates is also leading. It is noticeable that a lot of top countries involved belongs to offshore financial centers according to FMI, which is very logic. Companies look for low tax offshore jurisdiction to maximize their benefits.
+Regarding the offshore entities, the presence of economic global powers is clear : US and Russia. But there are other efficient hosting countries. Indeed, in Europe, Switzerland and Malta are leading with a very huge number comparing to other countries followed by Great Britain and Luxembourg. In South America, Panama has a large capital of offshore entities. In western Asia, United Arab Emirates is also leading. It is noticeable that a lot of top countries involved belongs to offshore financial centers according to FMI, which is very logic. Companies look for low tax offshore jurisdiction to maximize their benefits.
 
 <U><b> Intermediaries </b></U>
 
 {% include intermediaries.html %}
 
-To fulfill a tax evasion, the offshore companies also need a go-between with a service provider, these intermediaries usually are law-firms, banks or middlemen that asks an offshore service provider to create an offshore firm for a client. The Intermediaries are once again most located in Hong Kong, Great Britain and Switzerland , as they are known for the privacy of their bank services. Still, the distribution of the intermediaries is very similar to the offshore entities distribution on a global scale. The intermediaries involve mainly in the phases of the identified decision-making cycle (advice, creation, maintenance, enforcement).
+To fulfill a tax evasion, the offshore companies also need a go-between with a service provider, these intermediaries usually are law-firms, banks or middlemen that ask an offshore service provider to create an offshore firm for a client. The Intermediaries are once again most located in Hong Kong, Great Britain and Switzerland , as they are known for the privacy of their bank services. Still, the distribution of the intermediaries is very similar to the offshore entities distribution on a global scale. The intermediaries involve mainly in the phases of the identified decision-making cycle (advice, creation, maintenance, enforcement).
 
 <U><b> Active intermediaries </b></U>
 
@@ -152,14 +152,14 @@ To make our graph interactive and highly sophisticated we decided to use [Graphi
 
 It also allow us to extract a lot of mathematical relations such as histograms (degree of nodes, edges in, edges out ...).
 
-This graph represents the weighted projection of the bipartite graph, here we take into account the number of commun associations between countries as weights. It is clear that again some countries dominates the graph such as Switzerland, Hong Kong, Singapore ..
+This graph represents the weighted projection of the bipartite graph, here we take into account the number of commun associations between countries as weights. It is clear that again some countries dominate the graph such as Switzerland, Hong Kong, Singapore ..
 
 
 ---
 
 ### <span style="color:red"> Financial Secrecy Index (FSI) and involved jurisdictions </span>
 
-Our analysis has not stopped in just analyzing the involved countries and the connection between them. We instead wanted to find any correlation between the implication of each country in the panama papers with official indexes published by world wide organizations. We studied the correlation between Financial Secrecy Index (FSI) and countries involved in Panama papers.
+Our analysis has not stopped in just analyzing the involved countries and the connection between them. We also wanted to find any correlation between the implication of each country in Panama papers with official indexes published by world wide organizations. We studied the correlation between Financial Secrecy Index (FSI) and countries involved in Panama papers.
 
 <iframe src="fsi.html" width="100%" height="400px"></iframe>
 
@@ -174,7 +174,7 @@ A company or private individual may create an offshore in countries where, prefe
 
 ### <span style="color:red"> Conclusion </span>
 
-The Panama Papers expose the internal operations of one of the world’s leading firms in incorporation of offshore entities. Politicians, football players and busniessmen all around the world were involved. Even if the offshore entities are legal, politicians and responsibles should revise this phenomon because corruption and money laundring can be very easy in a such environment. In fact,corruption and inequality feed off each other. They create a vicious circle between corruption, unequal distribution of power in society, and unequal distribution of wealth. As showed in the Panama Papers, it is still too easy for the rich and powerful people to exploit the loophole of the global financial system to enrich themselves at the expense of the public good.
+The Panama Papers expose the internal operations of one of the world’s leading firms in incorporation of offshore entities. Politicians, football players and busniessmen all around the world were involved. Even if the offshore entities are legal, politicians and people in charge should revise this phenomon because corruption and money laundring can be very easy in a such environment. In fact,corruption and inequality feed off each other. They create a vicious circle between corruption, unequal distribution of power in society, and unequal distribution of wealth. As showed in the Panama Papers, it is still too easy for the rich and powerful people to exploit the loophole of the global financial system to enrich themselves at the expense of the public good.
 
 
 ---
