@@ -27,7 +27,9 @@ Panama Papers involved hundred thousands of offshore accounts, millions of docum
 
 <U><b> A word about the dataset before starting </b></U>
 
-Unfortunately, we don't have access to big part of the data and metadata from the original leaks. So, we decided to enrich our data with other similar datasets found in [The International Consortium of Investigative Journalists](https://offshoreleaks.icij.org/pages/database) (ICIJ): *Paradise papers*, *Offshore leaks* and *Bahamas leaks*.
+Unfortunately, we don't have access to big part of the data and metadata from the original leaks. So, we decided to enrich our data with other similar datasets found in [The International Consortium of Investigative Journalists](https://offshoreleaks.icij.org/pages/database) (ICIJ): *Paradise papers*, *Offshore leaks* and *Bahamas leaks*. The pie chart below explains more the sources of the data we used in our analysis:
+
+{% include service.html %}
 
 We combined all the datasets together to get more information, and then structured them in 3 relevant datasets. Each one represents a specified role of involved parties:
 
@@ -79,7 +81,7 @@ To fulfill a tax evasion, the offshore companies also need a go-between with a s
 
 {% include active.html %}
 
-Intermediaries play an important role in decision making, which involves more people and juridictions related to Panama papers. That's why, we want to understand more about them and plot the most active intermediaries. Mossack Fonseca worked with intermediaries in more than 100 countries all over the globe. Their most active clients by number of offshore company incorporations were from the United Kingdom, Hong Kong and Switzerland  .
+Intermediaries play an important role in decision making, which involves more people and juridictions related to Panama papers.  Mossack Fonseca worked with intermediaries in more than 100 countries all over the globe. The most active clients were from the United Kingdom, Hong Kong and Switzerland.
 
 <U><b> Officers </b></U>
 
@@ -89,14 +91,14 @@ Intermediaries play an important role in decision making, which involves more pe
 Regarding the officers, It is noticeable to say that most countries involved in entities are present here, which is very logic. But, other countries appeared here, especially Germany, Italy and Russia. It means that officers may have a relationship with companies in those countries. We will explain that in the next part.
 
 
-To conclude, countries involved in Panama papers are around the world. The offshore entities are not related to Panama or american and european countries. Companies, businessmen, football players and even politicians all around the world had an issue with Panama papers.
+To conclude, countries involved in Panama papers are around the world. The offshore entities are not related to particular countries. Companies, businessmen, football players and even politicians all around the world had an issue with Panama papers.
 
 <U><b> 40 years of offshore companies opening and closing </b></U>
 
 {% include incorporation.html %}
 
-- *Incorporation year:* the date when an offshore entity was created.
-- *Inactivation year:* the date when a client told the agent to deactivate the offshore entity which could be recreated at a later date.
+- <U><i> Incorporation year: </i></U> the date when an offshore entity was created.
+- <U><i> Inactivation year: </i></U> the date when a client told the agent to deactivate the offshore entity which could be recreated at a later date.
 
 The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 years of data. Mossack Fonseca’s clients have been rapidly deactivating companies since 2005. The number of incorporations of offshore entities has been decreasing rapidly since 2003.
 
@@ -113,15 +115,15 @@ In order to get valuable information from the network we constructed, we tried t
 
 <U><b> Importance of nodes</b></U>
 
-- *Degree centrality:* This algorithm puts into light the countries that have  the biggest number of connections.
+- <U><i> Degree centrality: </i></U> This algorithm puts into light the countries that have  the biggest number of connections.
 This number can be interpreted in terms of the immediate risk of a country being involved in questionable business.
 
 
-- *Page rank:* This algorithm computes the ranking of the countries in the graph based on the structure of the incoming links.
+- <U><i> Page rank: </i></U> This algorithm computes the ranking of the countries in the graph based on the structure of the incoming links.
 A country is important if it is pointed by other important countries
 
 
-- *Betweeness centrality:* The betweenness centrality for each country is the number of the shortest paths that pass through the country.
+- <U><i> Betweeness centrality: </i></U> The betweenness centrality for each country is the number of the shortest paths that pass through the country.
 High betweenness countries are often critical to collaboration across different groups.
 
 Those metrics were the tool that we used to determine the top three most important countries in the network: United Kingdom, Switzerland and Hong Kong.
