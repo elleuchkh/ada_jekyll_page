@@ -13,7 +13,7 @@ published: true
 
 ### <span style="color:red"> Introduction to the Panama Papers </span>
 
-The Panama Papers involved hundred thousands of offshore accounts, millions of documents detailing top secret financial information were leaked in 2015 by an anonymous source. It is estimated that tax havens cost poor countries at least $170 billion in lost tax revenues each year making poorest people lose out and the inequality gap grow. Holding money in an offshore company is generally not illegal but it can be used to launder money, dodge sanctions, avoid taxes. Many people listed in the panama papers claimed being innocent.
+Panama Papers involved hundred thousands of offshore accounts, millions of documents detailing top secret financial information were leaked in 2015 by an anonymous source. It is estimated that tax havens cost poor countries at least $170 billion in lost tax revenues each year making poorest people lose out and the inequality gap grow. Holding money in an offshore company is generally not illegal but it can be used to launder money, dodge sanctions, avoid taxes. Many people listed in the panama papers claimed being innocent.
 
 
 <U><b> Some relevant numbers related to Panama papers </b></U>
@@ -32,35 +32,32 @@ Unfortunately, we don't have access to big part of the data and metadata from th
 We combined all the datasets together to get more information, and then structured them in 3 relevant datasets. Each one represents a specified role of involved parties:
 
 
--  *Entities:* is a company, trust or fund created in a low tax offshore jurisdiction.
-- *Officers:* a person or a company who plays role in an offshore entity.
-- *Intermediaries:* the link between someone seeking an offshore and an offshore service provider.
+- <U><i>Entities:</i></U> is a company, trust or fund created in a low tax offshore jurisdiction.
+- <U><i>Officers:</i></U> a person or a company who plays role in an offshore entity.
+- <U><i>Intermediaries:</i></U> the link between someone seeking an offshore and an offshore service provider.
 
 An other important dataset was used in our analysis which is :
 
--  *Edges:* they connect nodes from the above parts and describe the nature of the relation between them. This dataset was very important especially in network analysis.  
+-  <U><i>Edges:</i></U> they connect nodes from the above parts and describe the nature of the relation between them. This dataset was very important especially in network analysis.  
 
 
 ---
 
 ### <span style="color:red"> Outline of the project </span>
 
-There is a huge amount of data, our work was to provide a detailed analysis of the dataset. We didn't focus our analysis on specific individuals. we tried instead to get a closer view about the involved countries and the distribution of the papers around the world.We will show you a brief presentation of the involved countries and the connection between them. Finally, we looked for any correlation between the implication of each country in the panama papers with international indexes. We will try to explain the correlation found with Financial Secrecy Index (FSI) and the countries.
+There is a huge amount of data, our work was to provide a detailed analysis of the dataset. We didn't focus our analysis on specific individuals. we tried instead to get a closer view about the involved countries and the distribution of the papers around the world.We will show you a brief presentation of the involved countries and the connection between them. Finally, we looked for any correlation between the implication of each country in the panama papers with international indexes. We will try to explain the correlation found between Financial Secrecy Index (FSI) and the countries.
 
 <U><b> Research questions </b></U>
 
-- What is the distribution of officers, entities and intermediaries around the world? It is based in specified countries or it is overspread? <br>  
-- Can we relate our rankings to other world known indicators? <br>  
-- What is the effect of suspicious investments on some countries? (Especially top Tax havens) <br>  
-- Does Mossack Fonseca have connections with entities (intermediary companies, clients, beneficiaries and shareholders) based in countries <br>  
-- Which had a high degree of illicit outflows? <br>  
+- What is the distribution of officers, entities and intermediaries around the world? It is based in specified countries or it is overspread? <br>
+- Based on network analysis, how can we describe the relationship and the connection between those countries? <br>    
+- Can we relate our rankings to other world known indicators such as Financial Secrecy Index (FSI)? <br>  
 
-
-We strongly believe in the usefulness of this kind of project in order to get a better understanding of the worldwide organization of the tax evasion phenomenon. We think that it could help society realize the importance of the event. It could therefore push towards the implementation of new tax regulations to prevent such aberrance.
+We will try to explain the phenomenon by analyzing the datasets in order to understand how much tax evasion is a very important tool for rich people. Our role is not to judge people or jurisdictions. We are just analyzing and interpreting the fact and maybe pushing towards the implementation of new tax regulations to prevent such aberrance.
 
 
 ###  <span style="color:red"> Involved countries </span>
-The worldwide distribution of the three main kinds of actors (which are Offshore entities, intermediaries and officers) is different. Each one differ from the others on a global scale even though some countries are represented in all three categories.
+The worldwide distribution of the three main kinds of actors (which are Offshore entities, intermediaries and officers) is different. Each one differ from the others on a global scale even though some countries are "well" represented in all the categories.
 
 <U><b> Entities </b></U>
 
@@ -140,6 +137,8 @@ The most important edge in our network was the one between Switzerland and Mali.
 Since switzerland seems to be an important player in this network the following map  shows the connections of the entities based in switzerland and other world countries:
 
 {% include edges.html %}
+
+<iframe src="distributions_of_centrality.html" width="100%" height="400px"></iframe>
 
 The result is not surprising again since the paper revealed that 1,339 Swiss lawyers, financial advisors and other middlemen had set up more than 38,000 offshore entities over the past 40 years.
 
