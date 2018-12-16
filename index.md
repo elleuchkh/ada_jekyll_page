@@ -59,11 +59,8 @@ We will try to explain the phenomenon by analyzing the datasets in order to unde
 
 
 ###  <span style="color:red"> Involved countries </span>
-The map below show the worldwide distribution of the three main kinds of actors : which are Offshore entities, intermediaries and officers. We notice that the three of them differ from each other on a global scale even though some countries are "well" represented in all three categories.
 
-<b>PS:</b> We chose to present this map in a log scale to be more significant because the gap is very large between the countries.
-
-<iframe src="countries.html" width="100%" height="400px"></iframe>
+The worldwide distribution of the three main kinds of actors (which are Offshore entities, intermediaries and officers) is an important thing to analyze. A general idea about the involved countries may give us a general idea about Panama papers. We noticed after the analysis that the three of them differ from each other on a global scale even though some countries are "well" represented in all three categories.
 
 <U><b> Entities </b></U>
 
@@ -87,11 +84,7 @@ Intermediaries play an important role in decision making, which involves more pe
 
 {% include officers.html %}
 
-
 Regarding the officers, It is noticeable to say that most countries involved in entities are present here, which is very logic. But, other countries appeared here, especially Germany, Italy and Russia. It means that officers may have a relationship with companies in those countries. We will explain that in the next part.
-
-
-To conclude, countries involved in Panama papers are around the world. The offshore entities are not related to particular countries. Companies, businessmen, football players and even politicians all around the world had an issue with Panama papers.
 
 <U><b> 40 years of offshore companies opening and closing </b></U>
 
@@ -102,6 +95,11 @@ To conclude, countries involved in Panama papers are around the world. The offsh
 
 The leaked files from Panama-based law firm Mossack Fonseca contain nearly 40 years of data. Mossack Fonseca’s clients have been rapidly deactivating companies since 2005. The number of incorporations of offshore entities has been decreasing rapidly since 2003.
 
+To conclude, countries involved in Panama papers are around the world. The offshore entities are not related to particular countries. Companies, businessmen, football players and even politicians all around the world had an issue with Panama papers.
+
+<b>PS:</b> We chose to present this map in a log scale to be more significant because the gap is very large between the countries.
+
+<iframe src="countries.html" width="100%" height="400px"></iframe>
 ---
 
 
