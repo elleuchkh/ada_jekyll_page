@@ -57,6 +57,7 @@ There is a huge amount of data, our work was to provide a detailed analysis of t
 
 We will try to explain the phenomenon by analyzing the datasets in order to understand how much tax evasion is a very important tool for rich people. Our role is not to judge people or jurisdictions. We are just analyzing and interpreting the fact and maybe pushing towards the implementation of new tax regulations to prevent such aberrance.
 
+---
 
 ###  <span style="color:red"> Involved countries </span>
 
